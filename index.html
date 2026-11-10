@@ -12,15 +12,15 @@
             var isChinese = langs.some(function (lang) {
                 return lang.toLowerCase().indexOf('zh') === 0;
             });
-            window.location.replace(isChinese ? '/zh/' : '/en/');
+            window.location.replace(isChinese ? 'zh/' : 'en/');
         })();
     </script>
 </head>
 <body>
     <p>If you are not redirected automatically, please choose your language:</p>
     <ul>
-        <li><a href="/en/">English</a></li>
-        <li><a href="/zh/">中文</a></li>
+        <li><a href="en/">English</a></li>
+        <li><a href="zh/">中文</a></li>
     </ul>
 </body>
 </html>
